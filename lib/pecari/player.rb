@@ -17,11 +17,11 @@ module Pecari
       `#{Pecari::Env.display} && xdotool windowactivate #{omx_window} && xdotool key q`
     end
 
-    def self.increase_volume
+    def self.volume_up
       `#{Pecari::Env.display} && xdotool windowactivate #{omx_window} && xdotool key plus`
     end
 
-    def self.decrease_volume
+    def self.volume_down
       `#{Pecari::Env.display} && xdotool windowactivate #{omx_window} && xdotool key minus`
     end
 
