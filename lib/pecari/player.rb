@@ -3,7 +3,7 @@ module Pecari
   module Player
 
     def self.launch(video)
-      command = "#{Pecari::Env.env_display} && xterm -e 'xterm -fullscreen -fg black -bg black -e omxplayer -o hdmi #{video}' &"
+      command = "#{Pecari::Env.display} && xterm -e 'xterm -fullscreen -fg black -bg black -e omxplayer -o hdmi #{video}' &"
       fork do
         exec command
       end
