@@ -44,15 +44,11 @@ module Pecari
     end
 
     def self.xdotool_installed?
-      package_installed?('xdotool')
+      Pecari::Env.package_installed?('xdotool')
     end
 
     def self.omxplayer_installed?
-      package_installed?('omxplayer')
-    end
-
-    def self.package_installed?(package)
-      !`dpkg -l | grep #{package} | awk '{print $3}'`.nil?
+      Pecari::Env.package_installed?('omxplayer')
     end
 
   end

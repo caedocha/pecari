@@ -8,4 +8,8 @@ module Pecari
 
   end
 
+  def self.package_installed?(package)
+    !`dpkg -l | grep #{package} | awk '{print $3}'`.nil?
+  end
+
 end
