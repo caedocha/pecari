@@ -71,7 +71,7 @@ class UnavailableXDoToolError < StandardError
 
   def message
     <<-EOF
-      Cannot find xdotool on you system. Try installing it with this commend:
+      Cannot find xdotool on you system. Try installing it with this command:
       "sudo apt-get install xdotool"
     EOF
   end
@@ -82,7 +82,7 @@ class UnavailableOMXPlayerError < StandardError
 
   def message
     <<-EOF
-      Cannot find omxplayer on you system. Try installing it with this commend:
+      Cannot find omxplayer on you system. Try installing it with this command:
       "sudo apt-get install omxplayer"
     EOF
   end
