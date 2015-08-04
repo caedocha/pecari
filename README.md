@@ -55,4 +55,8 @@ Pecari::Player.seek_backward # Seek -30 (short seek).
 Pecari::Player.exit # Kills player process.
 ```
 
-This are the features of omxplayer that I mostly use, for a reference of all the features of the player check this [site](https://github.com/huceke/omxplayer#key-bindings)
+These are the features of omxplayer that I mostly use, for a reference of all the features of the player check this [site](https://github.com/huceke/omxplayer#key-bindings)
+
+## Contact - Questions or comments
+
+If you have any questions or comments, you can send me an email to caedo.00 at gmail dot com. All feedback is welcomed.
