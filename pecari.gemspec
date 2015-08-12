@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'pecari'
-  s.version = '0.0.1'
+  s.version = '0.1.0'
   s.summary = 'Interface between Ruby and Omxplayer.'
   s.description = 'Interface between Ruby and Omxplayer which implements basic playback features.'
   s.authors = ['Carlos Chacon']
