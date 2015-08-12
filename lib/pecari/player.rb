@@ -4,7 +4,7 @@ module Pecari
 
     def self.launch(video)
       check_dependencies
-      command = "#{Pecari::Env.display} && xterm -e 'xterm -fullscreen -fg black -bg black -e omxplayer -o hdmi #{video}' &"
+      command = "#{Pecari::Env.display} && xterm -fullscreen -fg black -bg black -e omxplayer -o hdmi '#{video}' &"
       fork do
         exec command
       end
